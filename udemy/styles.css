@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+
+html, box-sizing {
+  min-height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased !important;
+}
+
+header.main-header {
+  height: 65px;
+  padding: 0 20px;
+  box-shadow: 0 0 2px;
+}
+
+header.main-header nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+header.main-header nav a {
+  text-decoration: none;
+  color: #505763;
+}
+
+header.main-header nav a.only-text {
+  box-sizing: content-box !important;
+  padding: 12px 15px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+header.main-header nav .separador{
+  background-color: #eee;
+  height: 44px;
+  width: 1px;
+  margin: 0 8px;
+}
+
+header.main-header nav a.only-text:hover {
+  background-color: #eeeeee;
+  border: 1px solid #e5e5e5;
+}
+
+header.main-header nav img#logo-icon {
+  height: 31.89px;
+  width: 110px;
+  margin-right: 4px;
+}
+
+header.main-header nav content-logo {
+  width: 126px;
+  height: 65px;
+}
+
+header.main-header nav .content-header .right-side .icons-action {
+  height: 20px;
+  width: 20px;
+}
+
+header.main-header nav .content-header .left-side a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header.main-header nav .content-header .left-side a img {
+  margin-right: 4px;
+}
+
+header.main-header nav a.link-icons-action {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header.main-header nav a.link-icons-action:hover {
+  border-radius: 50%;
+  border: 1px solid #e5e5e5;
+  background-color: rgba(238, 238, 238, 1);
+}
+
+header.main-header nav .content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+header.main-header nav .content-header .left-side, header.main-header nav .content-header .right-side {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+header.main-header nav .content-header .left-side {
+  justify-content: space-around;
+  max-width: 487.34px;
+}
+
+header.main-header nav .content-header .right-side {
+  margin-left: 15px;
+  justify-content: space-around;
+  flex: 1 0;
+}
+
+header img.mini-icon {
+  height: 13px;
+  width: 13px;
+}
+
+header.main-header nav .content-header .left-side form#form-grp {
+  display: flex;
+  align-items: center;
+}
+
+header.main-header nav .content-header .left-side button#search-icon {
+  margin-left: -10%;
+  height: 44px;
+  width: 44px;
+  border: none;
+}
+
+header.main-header nav .content-header .left-side button#search-icon::after{
+  background-image: url('assets/search.svg');
+  background-size: 13px 15px;
+  display: inline-block;
+  width: 13px; 
+  height: 15px;
+  content: "";
+}
+
+header.main-header nav .content-header .left-side button#search-icon:hover::after{
+  background-image: url('assets/search_hover.svg');
+  background-size: 13px 15px;
+  display: inline-block;
+  width: 13px; 
+  height: 15px;
+  content: "";
+}
+header.main-header nav .content-header .left-side button#search-icon:hover {
+  background-color: #ec5252;
+}
+
+header.main-header nav .content-header .right-side img#avatar-icon {
+  height: 46px;
+  width: 46px;
+}
+
+header.main-header nav .content-header .left-side input {
+  flex: 1;
+  background-color: #eeeeee;
+  padding: 10px 12px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  height: 44px;
+  width: 278px;
+}
+
+header ul.sub-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 44px;
+  width: 100%;
+  padding: 0 20px;
+  background-color: #f7f8fa;
+  border-bottom: 1px solid #dedfe0;
+}
+
+header ul.sub-nav a {
+  text-decoration: none;
+  color: #686f7a;
+}
+
+header ul.sub-nav a li {
+  padding: 12px 16px;
+}
+
+header ul.sub-nav a li:hover {
+  background-color: #eeeeee;
+}
+
+header ul.sub-nav a li {
+  display: flex;
+  align-items: center;
+}
+
+header ul.sub-nav a li img {
+  margin-right: 3px;
+}
+
+/*
+@media screen and (max-width: 1199px) {
+  header.main-header nav a.link-icons-action:not(.carrinho) {
+    display: none;
+  }
+
+  header.main-header nav a.only-text:not(.meus-cursos) {
+    display: none;
+  }
+
+}
+*/
+
